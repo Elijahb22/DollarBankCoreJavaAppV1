@@ -6,4 +6,5 @@
  *
  */
 module DollarBankCoreJavaAppV1 {
+	requires java.sql;
 }
