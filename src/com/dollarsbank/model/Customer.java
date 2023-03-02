@@ -5,6 +5,8 @@ public class Customer {
 	private String address;
 	private String contact_number;
 	private String user_id;
+	public Customer() {
+	}
 	public Customer(String name, String address, String contact_number, String user_id) {
 		super();
 		this.name = name;

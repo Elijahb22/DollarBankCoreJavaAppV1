@@ -9,9 +9,6 @@ public class Account {
 	private double balance;
 	private ArrayList<String> transactions;
 	
-	public Account() {
-		
-	}
 	
 	public Account(String user_id, String password, double balance) {
 		super();
