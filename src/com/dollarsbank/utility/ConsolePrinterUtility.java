@@ -3,10 +3,10 @@ package com.dollarsbank.utility;
 public class ConsolePrinterUtility {
 	//initial user interface
 		public static void initialOutput() {
-			System.out.println(ColorsUtility.ANSI_BLUE+ "+---------------------------+");
+			System.out.println(ColorsUtility.ANSI_YELLOW+ "+---------------------------+");
 			System.out.println("| DOLLARSBANK Welcomes You! |");
 			System.out.println("+---------------------------+" );
-			System.out.println("1. Create New Account");
+			System.out.println(ColorsUtility.ANSI_BLUE+"1. Create New Account");
 			System.out.println("2. Login");
 			System.out.println("3. Exit");
 			System.out.println();
